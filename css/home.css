@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: rgb(89, 63, 251);
+    background: linear-gradient(90deg, rgba(89, 63, 251, 1) 0%, rgba(70, 200, 252, 1) 100%);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#card {
+    background-color: darkslateblue;
+
+}
+
+#musica {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.img {
+    text-align: center;
+}
+  
+
+
+.navbar {
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+  
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 10px 30px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+  
+.nav-list li a:hover {
+    color: black;
+}
+  
+.rightNav {
+    width: 50%;
+    text-align: right;
+    
+}
+  
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(52, 162, 177);
+    border-radius: 9px;
+}
+  
+.background {
+    background: rgb(83, 37, 167) url("/img/branco.png");
+    background-blend-mode: darken;
+    background-size: cover;
+}
