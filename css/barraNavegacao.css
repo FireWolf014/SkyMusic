@@ -1,14 +1,17 @@
 .navbar {
     display: flex;
-    position: sticky; 
+    /*position: sticky; */
     align-items: center;
     justify-content: center;
     top: 0px;
+    position: relative;
 }
   
 .nav-list {
-    width: 50%;
+    width: 45%;
     display: flex;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
   
 .nav-list li {
@@ -26,7 +29,7 @@
 }
   
 .rightNav {
-    width: 50%;
+    width: 55%;
     text-align: right;
     
 }

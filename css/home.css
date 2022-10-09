@@ -3,12 +3,25 @@
 }
 
 body {
-    background: rgb(89, 63, 251);
-    background: linear-gradient(90deg, rgba(89, 63, 251, 1) 0%, rgba(70, 200, 252, 1) 100%);
+    background: rgb(89,63,251);
+    background: linear-gradient(90deg, rgba(89,63,251,1) 0%, rgba(8,42,79,1) 100%);
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(225, 228, 44);
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(25, 196, 202);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 #card {
@@ -23,11 +36,7 @@ h1 {
     padding-right: 5%;
 }
 
-h1 {
-    text-align: center;
-    padding-bottom: 2%;
-    padding-top: 2%;
-}
+
 
 .card-body {
     text-align: center;
@@ -37,6 +46,17 @@ h1 {
 .img {
     text-align: center;
 }
+
+#musica2 {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
   
 
 
