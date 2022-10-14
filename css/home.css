@@ -3,8 +3,8 @@
 }
 
 body {
-    background: rgb(89,63,251);
-    background: linear-gradient(90deg, rgba(89,63,251,1) 0%, rgba(8,42,79,1) 100%);
+    background: rgb(63, 203, 251);
+    background: linear-gradient(90deg, rgba(63, 203, 251, 1) 0%, rgba(43, 100, 115, 1) 0%, rgba(0, 121, 255, 1) 100%);
 }
 
 h1 {
@@ -18,14 +18,14 @@ h1 {
 
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(25, 196, 202);
+    color: rgb(225, 228, 44);
     text-align: center;
     padding-bottom: 1%;
     padding-top: 2%;
 }
 
 #card {
-    background-color: darkslateblue;
+    background-color: rgb(70, 195, 218);
 
 }
 
@@ -35,8 +35,6 @@ h3 {
     padding-left: 5%;
     padding-right: 5%;
 }
-
-
 
 .card-body {
     text-align: center;
@@ -55,8 +53,4 @@ h3 {
     padding-left: 5%;
     padding-right: 5%;
 }
-
-
-  
-
 

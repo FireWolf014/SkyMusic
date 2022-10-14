@@ -6,43 +6,48 @@
     top: 0px;
     position: relative;
 }
-  
+
 .nav-list {
     width: 45%;
     display: flex;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
-  
+
 .nav-list li {
     list-style: none;
     padding: 10px 30px;
 }
-  
+
 .nav-list li a {
     text-decoration: none;
     color: white;
 }
-  
+
 .nav-list li a:hover {
     color: black;
 }
-  
+
 .rightNav {
-    width: 55%;
-    text-align: right;
-    
+    width: 10%;
+    text-align: center;
 }
-  
+
+.rightNav2 {
+    width: 45%;
+    text-align: right;
+
+}
+
 #search {
     padding: 5px;
     font-size: 17px;
     border: 2px solid rgb(52, 162, 177);
     border-radius: 9px;
 }
-  
+
 .background {
-    background: rgb(83, 37, 167) url("/img/branco.png");
+    background: rgb(70, 195, 218) url("/img/branco.png");
     background-blend-mode: darken;
     background-size: cover;
 }
