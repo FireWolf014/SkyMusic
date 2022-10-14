@@ -30,10 +30,11 @@ h3 {
 }
 
 #musica {
-    display: flex;
+
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
+    text-align: center;
 }
 
 .card-body {
@@ -53,4 +54,3 @@ h3 {
     padding-left: 5%;
     padding-right: 5%;
 }
-
