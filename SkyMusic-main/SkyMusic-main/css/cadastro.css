@@ -1,0 +1,64 @@
+body {
+    background: rgb(63, 203, 251);
+    background: linear-gradient(90deg, rgba(63, 203, 251, 1) 0%, rgba(43, 100, 115, 1) 0%, rgba(0, 121, 255, 1) 100%);
+}
+
+div {
+    background-color: #1996c7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.logo {
+    width: 170px;
+    height: 170px;
+}
+
+.pa {
+    text-align: center;
+    color: white;
+}
+
+#login {
+    text-align: center;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #13c71c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
