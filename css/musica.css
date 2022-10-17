@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: rgb(63, 203, 251);
+    background: linear-gradient(90deg, rgba(63, 203, 251, 1) 0%, rgba(43, 100, 115, 1) 0%, rgba(0, 121, 255, 1) 100%);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(225, 228, 44);
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(225, 228, 44);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+#card {
+    background-color: rgb(70, 195, 218);
+
+}
+
+#musica {
+
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.img {
+    text-align: center;
+}
+
+#musica2 {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
