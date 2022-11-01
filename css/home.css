@@ -6,6 +6,7 @@ body {
     background: rgb(63, 203, 251);
     background: linear-gradient(90deg, rgba(63, 203, 251, 1) 0%, rgba(43, 100, 115, 1) 0%, rgba(0, 121, 255, 1) 100%);
     min-width: 1080px;
+    zoom: 100%;
 }
 
 h1 {
