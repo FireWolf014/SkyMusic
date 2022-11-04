@@ -9,13 +9,11 @@
 
 .nav-list {
     padding-top: 1%;
-    display: flex;
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    display: flex;
+    display:contents;
     font-size: 25px;
-    align-items: left;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -34,5 +32,5 @@
     background: rgb(70, 195, 218) url("/img/branco.png");
     background-blend-mode: darken;
     background-size: cover;
-    
+    width: auto;
 }
