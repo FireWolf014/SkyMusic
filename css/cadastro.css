@@ -42,11 +42,6 @@ button:hover {
     height: 170px;
 }
 
-.pa {
-    text-align: center;
-    color: white;
-}
-
 #login {
     text-align: center;
 }
@@ -62,4 +57,23 @@ input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
 
+}
+
+.link{
+    list-style: none;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    /*position: sticky; */
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    position: relative;
+}
+
+.link:hover{
+    color: greenyellow;
 }
