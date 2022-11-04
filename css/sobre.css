@@ -1,7 +1,10 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background: rgb(63, 203, 251);
     background: linear-gradient(90deg, rgba(63, 203, 251, 1) 0%, rgba(43, 100, 115, 1) 0%, rgba(0, 121, 255, 1) 100%);
-    min-width: 1080px;
     
 }
 
@@ -15,6 +18,20 @@ body {
     border-radius: 15px;
     color: white;
     
+}
+
+.card{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    align-items: center;
+}
+
+#card1{
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 35%;
+    align-items: center;
 }
 
 input {
@@ -65,4 +82,8 @@ input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
 
+}
+
+img{
+    
 }

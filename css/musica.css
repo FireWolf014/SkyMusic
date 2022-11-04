@@ -5,7 +5,7 @@
 body {
     background: rgb(63, 203, 251);
     background: linear-gradient(90deg, rgba(63, 203, 251, 1) 0%, rgba(43, 100, 115, 1) 0%, rgba(0, 121, 255, 1) 100%);
-    min-width: 1080px;
+    
 }
 
 h1 {
@@ -50,7 +50,7 @@ h3 {
 #musica2 {
     padding-top: 1%;
     padding-bottom: 2%;
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
