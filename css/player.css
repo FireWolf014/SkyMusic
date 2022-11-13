@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.container {
+    background: rgb(63, 203, 251);
+    height: -100px;
+    border-radius: 30px;
+
+
+}
+
+
+.container li {
+    
+    text-align: center;
+    display: inline-block;
+    justify-content: flex-end;
+    margin: 10px;
+    height: 38px;
+    margin-left: 10px;
+       
+}
+
+.ul, li {
+    text-align: center;
+    cursor: pointer;    
+}
+
+.barra {
+    display: inline-flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 8px 100px;
+    height: 12px;
+    cursor: pointer;
+   
+
+}
+
+progress {
+    width: 400px;
+    margin: 12px 1px 12px 4px;
+    height: 20px;  
+}
+
