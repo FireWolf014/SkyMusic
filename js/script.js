@@ -1,7 +1,7 @@
 let idmusica;
 
 $(function(){
-    let musica = $(".player1");
+    let musica = $(".playerALL");
     let player = $(".player");
     musica.click(function (){ 
         
