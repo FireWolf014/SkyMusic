@@ -4,23 +4,17 @@ class cadastro {
     private $email;
     private $password;
 
-    function dados(){
-        $_GET[""];
-
-        return
+   public function getInfo(){
+    
+        return $this->nome;
     }
 
-    function informacao(nome, email, password){
+    function informaCao(nome, email, password){
         $this->name = $_GET["nomeid"];
         $this->email = $_GET["loginid"];
         $this->password = $_GET["senhaid"];
 
-        return
-    }
-
-    if(dadis == dados){
-        echo "correto";
-    }
+        return $this->informaCao;
 }
 
 ?>
