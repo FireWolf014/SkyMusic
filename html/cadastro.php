@@ -1,6 +1,34 @@
+<?php
+class cadastro {
+    private $nome;
+    private $email;
+    private $password;
+
+    function dados(){
+        $_GET[""];
+
+        return
+    }
+
+    function informacao(nome, email, password){
+        $this->name = $_GET["nomeid"];
+        $this->email = $_GET["loginid"];
+        $this->password = $_GET["senhaid"];
+
+        return
+    }
+
+    if(dadis == dados){
+        echo "correto";
+    }
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Cadastro</title>
