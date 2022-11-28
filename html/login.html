@@ -5,19 +5,24 @@
     <title>Login</title>
     <link rel="icon" href="../imagens/logoMiniatura.jpeg">
     <link rel="stylesheet" href="../css/login.css">
-    <script src="../JS/login.js"></script>
+    <script src="../js/login.js"></script>
     <link rel = "shortcut icon" type = "imagem/x-icon" href = "../img/skymusic.png"/>
+
     
 </head>
 <body>
-   <form name="login">
-            <div class="tabela">
+   <form>
+     <div class="tabela">
             <h1 id="login">Login</h1>
-            <input type="email" id="loginid" placeholder="Digite seu email" required name="email">
+            <input type="email" runat="server" id="email" placeholder="Digite seu email"  name="username" required="">
             <br> <br>
-            <input type="password" id="senhaid" placeholder="Digite sua senha" required name="senha">
+            <input type="password" runat="server" id="pass" placeholder="Digite sua senha"  name="password" required="">
             <br><br>
-            <input type="submit" class="enviar" onclick="Enviar();" value="Concluido">
+            <div class="group">
+                <input id="check " type="checkbox" class="check">
+                <label for="check">Salvar informações </label>
+            </div>
+            <input class="button" type="submit" value="Entra" onclick="return Login();">
             <br><br>
             <a class="link" href="cadastro.html">Não possui cadastro?</a><br>
             <a class="link" href="../index.html">Home</a>
