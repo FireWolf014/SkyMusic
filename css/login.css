@@ -48,13 +48,18 @@ button:hover {
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color: #13c71c;
     border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: #13c71c;
+		-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 
 }
 
@@ -75,4 +80,19 @@ input[type=reset] {
 
 .link:hover{
     color: greenyellow;
+}
+
+.tabela {
+    border:2px solid;
+    border-radius: 12px;
+    padding: 100px;
+}
+
+input {
+    text-align: center;
+    border:1px solid;
+    border-radius: 12px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
