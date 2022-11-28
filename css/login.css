@@ -5,6 +5,9 @@ body {
 
 .tabela {
     background-color: #1996c7;
+    -webkit-box-shadow: 9px 7px 5px rgba(20, 19, 19, 0.253);
+    -moz-box-shadow:    9px 7px 5px rgba(83, 5, 5, 0.253);
+    box-shadow:         9px 7px 5px rgba(0, 121, 255, 1);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,20 +45,24 @@ button:hover {
 }
 
 #login {
-    text-align: center;
+    margin-left: 60px;
 }
 
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color: #13c71c;
     border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #13c71c;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .link{
@@ -75,4 +82,18 @@ input[type=reset] {
 
 .link:hover{
     color: greenyellow;
+}
+.tabela {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 110px;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: #e9dfdd;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
