@@ -15,11 +15,26 @@ div {
     color: white;
 }
 
+.bloco {
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: #1996c7;
+    -webkit-box-shadow: 9px 7px 5px rgba(20, 19, 19, 0.253);
+    -moz-box-shadow:    9px 7px 5px rgba(83, 5, 5, 0.253);
+    box-shadow:         9px 7px 5px rgba(0, 121, 255, 1);
+}
+
 input {
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: #e9dfdd;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 button {
@@ -44,6 +59,7 @@ button:hover {
 
 #login {
     text-align: center;
+    
 }
 
 input[type=button],
@@ -56,6 +72,8 @@ input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    margin-top: 30px;
+    margin-left: 50px;
 
 }
 
