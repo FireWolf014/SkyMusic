@@ -2,7 +2,7 @@ let idmusica;
 
 $(function(){
     let musica = $(".playerALL");
-    let player = $(".player");
+    let player = $(".playerALL");
     musica.click(function (){ 
         
         pararAudio()
