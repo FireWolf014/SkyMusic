@@ -1,394 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/logo.jpg">
-  <title>Heróis dos bits</title>
-  <!-- Fonte -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-  <!-- Estilos -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- Scripts jQuery -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
-  <!-- Progress Bar -->
-  <script src="js/progressbar.min.js"></script>
-  <!-- Parallax -->
-  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/barraNavegacao.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="shortcut icon" type="imagem/x-icon" href="img/skymusic.png" />
+
 </head>
+
 <body>
-  <header>
-    <div class="container" id="nav-container">
-      <!-- add essa class -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="img/logo.jpg" alt="hDC Agency"> Heróis dos bits
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
-            <a class="nav-item nav-link" id="about-menu" href="#">Empresa</a>
-            <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
-            <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
-            <a class="nav-item nav-link" id="portfolio-menu" href="#">Projetos</a>
-            <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+
+  <nav class="navbar background">
+    <ul class="nav-list">
+
+      <div class="row">
+        <div class="col-sm-2">
+          <a class="link" href="../SkyMusic/index.html">Home</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2">
+          <a class="link" href="html/login.html">Login</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2">
+          <a class="link" href="html/sobre.html">Sobre</a>
+        </div>
+      </div>
+
+    </ul>
+  </nav>
+
+  <nav class="navbar background">
+    <ul class="nav-list">
+
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="img/skymusic.png" width="100px">
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <h3>Artistas em Destaque</h3>
+
+  <div id="musica">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/lilnasx.JPG" alt="..." width="75%">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Lil Nas X</h5>
+            
           </div>
         </div>
-      </nav>
+        <div class="carousel-item">
+          <img src="img/doja.JPG" alt="..." width="75%">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Doja Cat</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/dragons.JPG" alt="..." width="75%">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Imagine Dragons</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/marilia.JPG" alt="..." width="75%">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Marília Mendonça</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/pericles.jpg" alt="..." width="75%">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Péricles</h5>
+            
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </header>
-  <main>
-    <div class="container-fluid">
-      <!-- slider -->
-      <div id="mainSlider" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-          <li data-target="#mainSlider" data-slide-to="1"></li>
-          <li data-target="#mainSlider" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+  </div>
 
-            <!-- tirar classe d-none -->
+  <h3>Músicas favoritas</h3>
 
-            <div class="carousel-caption d-md-block">
-              <h2>Em busca de uma solução para sua empresa?</h5>
-              <p>Conte conosco, temos mais de 30 consultores para atender suas necessidades.</p>
-              <a href="#" class="main-btn">Ver portfólio</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de software">
-            <div class="carousel-caption d-md-block">
-              <h2>Está querendo tirar o projeto do papel?</h5>
-              <p>Nossa equipe está pronta para lhe atender.</p>
-              <a href="#" class="main-btn">Entre em contato</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em software">
-            <div class="carousel-caption d-md-block">
-              <h2>Está buscando manutenção no seu software e no seu data center?</h5>
-              <p>Nos Heróis dos bits estamos altamente qualificados para resolver seu problema.</p>
-              <a href="#" class="main-btn">Entre em contato</a>
-            </div>
-          </div>
+  <div class="row" id="musica2">
+    <div class="col-sm-2">
+      <div id="card" class="card" style="width: 100%;">
+        <img src="img/pericles2.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Supera</h5>
         </div>
-        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <!-- Sobre a empresa -->
-      <div id="about-area">
-        <div class="container">
-            <div class="row">
-              <div class="col-12"> 
-                <h3 class="main-title">Heróis dos bits</h3>
-              </div>
-              <div class="col-md-6">
-                <img class="img-fluid" src="img/agencia.jpg" alt="Heróis dos bits">
-              </div>
-              <div class="col-md-6">
-                <h3 class="about-title">Uma empresa focada em Vendas</h3>
-                <p>Empresa focada em Vendas, trazendo praticidade e utilidade para o seu dia a dia digitalmente, buscamos atender todos os tipos de público, inovando suas compras.</p>
-                <p>Nós buscamos entender suas necessidades básicas sobre computadores e notebooks, sempre prezamos o conforto dos nossos cliente e o seu feedbacks..</p>
-                <p>A missão da nossa empresa é fornecer produtos de hardware de alta qualidade que atendam às necessidades de nossos clientes e superem suas expectativas.</p>
-                <p>Nossos diferenciais:</p>
-                <ul id="about-list">
-                  <li><i class="fas fa-check"></i> Equipamento novos</li>
-                  <li><i class="fas fa-check"></i> Qualidade e garantia</li>
-                  <li><i class="fas fa-check"></i> Instalaçao de equipamento e Software</li>
-                  <li><i class="fas fa-check"></i> Desenvolvimento com metodologia ágil</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </div>
-      <!-- Serviços da empresa -->
-      <div id="services-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-                <h3 class="main-title">Nossas especialidades</h3>
-            </div>
-            <div class="col-md-4 service-box">
-              <i class="fas fa-mobile-alt"></i>
-              <h4>Aplicativos Nativos</h4>
-              <p>Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos.</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <i class="fa fa-solid fa-desktop"></i>
-              <h4>Hardware</h4>
-              <p>Trabalhamos com as principais marcas de hardware do mercado transando uma confiabilidade para sua empresa.</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <i class="fa fa-solid fa-laptop"></i>
-              <h4>Notebooks</h4>
-              <p>Trabalhamos com notebooks de ponta e intermediário para seu escritório ou para sua empresa.</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <i class="fab fa-google"></i>
-              <h4>Experts em SEO</h4>
-              <p>Com nosso serviço de marketing seu site será melhor posicionado no Google e venderá mais.</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <i class="fas fa-hands-helping"></i>
-              <h4>Suporte 24/7</h4>
-              <p>Você sempre terá alguem da equipe disponível para suporte, em diferentes plataformas. (chat, email, skype)</p>
-            </div>
-            <div class="col-md-4 service-box">
-              <i class="fas fa-server"></i>
-              <h4>Experiência em servidores</h4>
-              <p>Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Dados da empresa -->
-      <div id="data-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleA"></div>
-              <p>Projetos entregues</p>
-            </div>
-            <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleB"></div>
-              <p>Clientes Felizes</p>
-            </div>
-            <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleC"></div>
-              <p>Colaboradores</p>
-            </div>  
-            <div class="col-md-3 col-xs-6 circle-box">
-              <div id="circleD"></div>
-              <p>Cafézinhos</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Time -->
-      <div id="team-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="main-title">Nosso time</h3>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="img/profile1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
-                <div class="card-body">
-                  <h5 class="card-title">Jhon Doe</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="img/profile2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
-                <div class="card-body">
-                  <h5 class="card-title">Maria Mariana</h5>
-                  <p class="card-text">SEO Consultant</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="img/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
-                <div class="card-body">
-                  <h5 class="card-title">Paul Baker</h5>
-                  <p class="card-text">Project Manager</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="img/profile4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
-                <div class="card-body">
-                  <h5 class="card-title">Karina Katarina</h5>
-                  <p class="card-text">UX/UI Designer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Trabalhe conosco -->
-      <div id="apply-area">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 apply-box" id="company-img"></div>
-            <div class="col-md-6 apply-box" id="pattern-img">
-              <h4>Gosta de desafios?</h4>
-              <p>Temos várias posições abertas, entre elas: Software Engineer, UI/UX Designer, Project Manager e mais.</p>
-              <p>Clique no botão abaixo e confira os benefícios e as posições em aberto.</p>
-              <p>Aqui você terá a chance de trabalhar com as melhores tecnologias e os profissionais mais capacitados.</p>
-              <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Portfólio -->
-      <div id="portfolio-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="main-title">Produtos e Marcas que trabalhamos</h3>
-            </div>
-            <div class="col-md-12" id="filter-btn-box">
-              <button class="main-btn filter-btn active" id="all-btn">Todos nossos Produtos</button>
-              <button class="main-btn filter-btn" id="pjt-btn">Hardware</button>
-              <button class="main-btn filter-btn" id="sup-btn">Servidores</button>
-              <button class="main-btn filter-btn" id="grt-btn">Notebooks</button>
-              <button class="main-btn filter-btn" id="seo-btn">Perifericos</button>
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/amd.webp" class="img-fluid" alt="Processador AMD Ryzen 9" width="200">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/amd5.jpg" class="img-fluid" alt="Processador AMD Ryzen 5" width="200">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/M2.nvme.jpg" class="img-fluid" alt="SSD nvme" width="250">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/ssd.jpg" class="img-fluid" alt="SSD" width="250">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/memoria e-cc.webp" class="img-fluid" alt="Memoria ecc servidores" width="250">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/memoria_ddr4.webp" class="img-fluid" alt="Memoria DDr4 Kingston Fury" width="250">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/i9.webp" class="img-fluid" alt="Placamae core i9" width="250">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/i7.jpg" class="img-fluid" alt="Placamae core i7" width="250">
-            </div>
-            <div class="col-md-4 project-box pjt">
-              <img src="img/i5.jpg" class="img-fluid" alt="Placamae core i5" width="250">
-            </div>
-            <div class="col-md-4 project-box sup">
-              <img src="img/servidordell.jpg" class="img-fluid" alt="Servidores Dell">
-            </div>
-            <div class="col-md-4 project-box sup">
-              <img src="img/servidorhjp.png" class="img-fluid" alt="Servidores HP">
-            </div>
-            <div class="col-md-4 project-box grt">
-              <img src="img/notebook dell.jpg" class="img-fluid" alt="Notebook Dell" width="250">
-            </div>
-            <div class="col-md-4 project-box grt">
-              <img src="img/notebook_dell_geforce.webp" class="img-fluid" alt="Notebook Dell Gamer" width="250">
-            </div>
-            <div class="col-md-4 project-box grt">
-              <img src="img/hpg8.jpg" class="img-fluid" alt="Notebook hp" width="250">
-            </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/headsetGamerwebp.webp" class="img-fluid" alt="HeadSet Gamer" width="250">
-            </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/Mouse_Logitec.webp" class="img-fluid seoimg" alt="Mouse Logitec" width="250">
-            </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/MouseRazer.webp" class="img-fluid seoimg" alt="Mouse Rezer Gamer" width="250">
-            </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/kit.webp" class="img-fluid seoimg" alt="Kit Teclado e Mouse" width="250">
-            </div>
-            <div class="col-md-4 project-box seo">
-              <img src="img/basico.webp" class="img-fluid seoimg" alt="Teclado Basico" width="250">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Newsletter -->
-      <div id="news-area">
-        <div class="container">
-          <div class="col-md-12">
-            <h3 class="main-title">Fique por dentro das novidades</h3>
-          </div>
-          <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre as novidades de tecnologia para sua empresa</p>
-          <form action="">
-            <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
-            <input type="submit" id="news-btn" value="Inscrever">
-          </form>
-        </div>
-      </div>
-      <!-- Call to Action -->
-      <div id="call-area">
-        <div class="container">
-            <div class="row">
-              <p>Deseja fazer um orçamento sem compromisso?</p>
-              <button class="main-btn" id="call-btn">Orçar</button>
-            </div>
-          </div>
       </div>
     </div>
-  </main>
-  <!-- Rodapé -->
+
+    <div class="col-sm-2">
+      <div id="card" class="card" style="width: 100%;">
+        <img src="img/montero.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MONTERO</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div id="card" class="card" style="width: 100%;">
+        <img src="img/myordinarylide.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">My Ordinary Life</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div id="card" class="card" style="width: 100%;">
+        <img src="img/vegas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vegas</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-2">
+      <div id="card" class="card" style="width: 100%;">
+        <img src="img/ransom.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ransom</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
-    <div id="contact-area">
-      <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="main-title">Entre em contato conosco</h3>
-            </div>
-            <div class="col-md-4 contact-box">
-              <i class="fas fa-phone"></i>
-              <p><span class="contact-tile">Ligue para:</span> (11)99999-9999</p>
-              <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
-            </div>
-            <div class="col-md-4 contact-box">
-              <i class="fas fa-envelope"></i>
-              <p><span class="contact-tile">Envie um email:</span> contato@heroisdosbits.com.br</p>
-            </div>
-            <div class="col-md-4 contact-box">
-              <i class="fas fa-map-marker-alt"></i>
-              <p><span class="contact-tile">Venha tomar um café:</span> Zona Central de São Paulo</p>
-            </div>
-            <div class="col-md-6" id="msg-box">
-              <p>Ou nos deixe uma mensagem:</p>
-            </div>
-            <div class="col-md-6" id="contact-form">
-              <form action="">
-                <input type="text" class="form-control" placeholder="E-mail" name="email">
-                <input type="text" class="form-control" placeholder="Assunto" name="subject">
-                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-                <input type="submit" class="main-btn">
-              </form>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div id="copy-area">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-              <p> Heróis dos bits <a href="index.html" target="_blank"> Heróis dos bits</a> &copy; 2023</p>
-            </div>
-        </div>
-      </div>
+    <div class="informaocao">
+      <h6>EMPRESA</h6>
+      <ul>
+      <li>
+        <a href="./html/sobre.html">Sobre</a>
+        <a href="./html/login.html">Login</a>
+        <a href="./index.html">Home</a>
+          <a href="#">Legal</a>
+          <a href="#">Central de privacidade</a>
+          <a href="#">Politica de privacidade</a>
+          <a href="#">Cookies</a>
+        </li>
+      </ul>
     </div>
   </footer>
-  <!-- Scripts do projeto -->
-  <script src="js/scripts.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
